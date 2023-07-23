@@ -8,8 +8,12 @@ nmap scan showed 3 ports found
 port 80 running nginx version 1.16.1. ran dirbuster found hidden/whatever. within the html I hound this ZmxhZ3tmMXJzN19mbDRnfQ==
 this is the first flag! I used base64 decoded to get the flag.
 
-port 65524 is running appache. in the html I found this: its encoded with ba....:ObsJmP173N2X6dOrAgEAL0Vu. this is appache is default so I 
+port 65524 is running appache. in the html I found this: its encoded with ba....:ObsJmP173N2X6dOrAgEAL0Vu. I had to look this up, I decoded with base62
+the hidden directory is /n0th1ng3ls3m4tt3r .this is appache is default so I 
 this thats how I'm going to get access.this link shoud help https://blog.cotten.io/why-is-apache-vulnerable-by-default-743eec222013
 
-on the default page I found the third flag. still looking for the 2nd flad
+Got the hash 940d71e8655ac41efb5f8ab850668505b86dd64186a66e57d1483e7f5fe6fd81 I did a hash lookup. I found it a sha256
+I lookedup how to use john. I ran this command:  john --wordlist=easypeasy.txt --rule ephach.txt. Here is the password mypasswordforthatjob
+
+I think I need to exploit the nginx part of the website. it looks like the key is 
 
