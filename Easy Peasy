@@ -1,0 +1,15 @@
+IP of this box is 10.10.92.151
+
+nmap scan showed 3 ports found
+80/tcp    open  http
+6498/tcp  open  unknown
+65524/tcp open  unknown
+
+port 80 running nginx version 1.16.1. ran dirbuster found hidden/whatever. within the html I hound this ZmxhZ3tmMXJzN19mbDRnfQ==
+this is the first flag! I used base64 decoded to get the flag.
+
+port 65524 is running appache. in the html I found this: its encoded with ba....:ObsJmP173N2X6dOrAgEAL0Vu. this is appache is default so I 
+this thats how I'm going to get access.this link shoud help https://blog.cotten.io/why-is-apache-vulnerable-by-default-743eec222013
+
+on the default page I found the third flag. still looking for the 2nd flad
+
