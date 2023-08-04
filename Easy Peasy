@@ -17,3 +17,5 @@ I lookedup how to use john. I ran this command:  john --wordlist=easypeasy.txt -
 
 I think I need to exploit the nginx part of the website. it looks like the key is 
 
+from this url https://cdn.pixabay.com/photo/2018/01/26/21/20/matrix-3109795_960_720.jpg need to download the pick and use steghide.
+
