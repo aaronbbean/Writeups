@@ -1,3 +1,5 @@
 All the commands used on powerapps and cmd is stord on a txt file. This is how to search for it:
 
 %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+
+icacls checks privlages of a file. this will tell you who an r/w files
