@@ -1,3 +1,6 @@
 Shows prosses and file location: ps axjf
 
 The env command will show environmental variables.
+
+This list users for passwd file: cat /etc/passwd | cut -d ':' -f 1
+This bypasses user privlage 
