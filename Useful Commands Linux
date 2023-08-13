@@ -1,1 +1,3 @@
 Shows prosses and file location: ps axjf
+
+The env command will show environmental variables.
